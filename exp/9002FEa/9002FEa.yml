@@ -7,7 +7,7 @@ googlecloud:
 
 
 experiment:
-  script: "src/completo/z912_FE_UTN.r"
+  script: "src/completo/z913_FE_UTN.r"
   restart: FALSE
   name: "exp"
   type: "FeatureEngineering"
@@ -28,7 +28,7 @@ param:
   acumulavars: FALSE   #a lo nuevo lo va aplicando
 
   randomforest:    
-    correr:        FALSE
+    correr:        TRUE
     num.trees:        80
     max.depth:         8
     min.node.size:   500
