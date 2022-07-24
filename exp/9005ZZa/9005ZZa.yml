@@ -12,15 +12,15 @@ experiment:
   restart: TRUE
   name: "exp"
   type: "ZZ"
-  tags: [ "termonuclear" ]
+  tags: [ "termonuclear 9005" ]
   description: "del  AsignarNA"
 
-  requires:   [ "termonuclear-HTa" ]
+  requires:   [ "9005HTa" ]
 
 param:
-  semilla_primos:  102191 #poner aqui una semilla propia, sirve para crear los numeros primos que seran semillas
+  semilla_primos:  455531 #poner aqui una semilla propia, sirve para crear los numeros primos que seran semillas
 
-  semillerio:  50     #Uso 50 semillas, se puede aumentar para mejorar
+  semillerio:  80     #Uso 50 semillas, se puede aumentar para mejorar
 
   modelos_qty:  1
   clase_train_POS:    [ "BAJA+2", "BAJA+1" ]
